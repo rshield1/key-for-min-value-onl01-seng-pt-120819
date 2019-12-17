@@ -8,6 +8,7 @@ min_key = ''
         if min_value == nil || value < min_value
         min_value = value
         min_key = key
+      end
     end
     min_key
 end
