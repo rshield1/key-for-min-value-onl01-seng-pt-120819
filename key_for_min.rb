@@ -7,13 +7,5 @@ min_key = ''
 max_value = 10000
     name_hash.collect do |key, value|
         if value < max_value
-            if value < min_value || 0
-                min_value = value
-                min_key = key
-            end
-        else
-            min_key
-            min_value
-        end
     end
 end
